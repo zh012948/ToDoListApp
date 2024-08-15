@@ -1,0 +1,69 @@
+body {
+    background: #000;
+    color: white;
+}
+
+.to-do-list {
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+
+}
+
+.add-btn {
+    background-color: green;
+    color: white;
+}
+
+.move-btn {
+    background-color: rgb(70, 197, 239);
+    margin: 6px;
+}
+
+li {
+    width: 33%;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.952);
+    margin: 10px;
+    color: black;
+}
+
+.delete-btn {
+    background-color: #ff3636;
+    margin: 10px;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 9px;
+    width: 20%;
+    outline: none;
+}
+
+
+.ListContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10 0%;
+}
+
+.text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+}
